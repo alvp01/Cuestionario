@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionario</title>
+  <link rel="stylesheet" href="../styles/config.style.css">
+  <link rel="stylesheet" href="../styles/fonts.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Configura tu cuestionario</h1>
+    <div class="row">
+      <span class="description dm-sans">Preguntas (máximo 20)</span>
+      <select name="numPreguntas" id="numPreguntas" >
+        <option value="null" selected disabled>Cantidad</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+    <div class="row">
+      <span class="description">Idioma</span>
+      <select name="idioma" id="idioma">
+        <option value="null" selected disabled>Idioma</option>
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+      </select>
+    </div>
+    <div class="row">
+      <span class="description">Pista(una pista por pregunta)</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="row navigation">
+      <a href="../index.html" class="previous">Anterior</a>
+      <a href="#">Ir al cuestionario</a>
+    </div>
+  </main>
+</body>
+</html>
